@@ -1,0 +1,491 @@
+.iphone {
+  width: 300px;
+  margin: auto;
+  position: relative;
+  perspective: 600px;
+  perspective-origin: right;
+  transform: rotate(7deg);
+  
+}
+
+video {
+  border: none;
+  position: absolute;
+  z-index: -1;
+  width: 229px;
+  left: 6px;
+  top: 22px;
+  transform: rotateY(-13deg);
+  border-radius: 6%;
+  
+}
+
+.iphone img {
+  width: 100%;
+
+}
+
+.hero__caption {
+  position: relative;
+}
+
+#hero{
+  display: flex;
+  flex-direction: row;
+}}
+
+
+
+.container
+{
+  position:absolute;
+  left:0px;
+  top:0px;
+  display: flex;           
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;
+  width:100%;
+  height:100%;
+}
+
+.phonecontainer
+{
+  width:500px;
+  height:709px;
+  position:relative;
+  z-index:14;
+  
+}
+
+.phonemask
+{
+  width:500px;
+  height:709px;
+  position:absolute;
+  top:0px;
+  left:0px;
+  background-image: url(https://uploads-ssl.webflow.com/5eb55653d4d4d9014b76407d/5ece6630eb97a046d32b3b07_pr.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  z-index:14;
+}
+.phone-mask
+{
+  width:50%;
+  height:50%;
+  position:absolute;
+  top:0px;
+  left:0px;
+  background-image: url(https://uploads-ssl.webflow.com/5eb55653d4d4d9014b76407d/5ece6630eb97a046d32b3b07_pr.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  z-index:14;
+}
+.video1 {
+  border: none;
+  position: absolute;
+  z-index: -1;
+  width: 25%;
+  left: 64px;
+  top: 25px;
+  transform: rotateY(-13deg);
+  border-radius: 8%;
+}
+.phonecontainer1
+{
+  width:500px;
+  height:709px;
+  position:relative;
+  z-index:14;
+  
+  
+}
+.scene-1
+{
+  width:250px;
+  height:543px;
+  position:absolute;
+  background:white;
+  z-index:13;
+  top:60px;
+  left:127px;
+}
+
+.masterhalf1
+{
+  width 500px;
+  height:51%;
+  background-image: url(https://uploads-ssl.webflow.com/5eb55653d4d4d9014b76407d/5ece6870b7c2667f7b4d3e0b_pl.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  display: flex;           
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;
+}
+
+.masterhalf2
+{
+  width 500px;
+  height:49%;
+  background:white;
+
+}
+
+.footer>img
+{
+  width:100%;
+}
+
+.footer
+{
+  position:absolute;
+  bottom:-10px;
+}
+
+.titletext{
+  font-size:12px;
+  padding-top:15px;
+  padding-left:18px
+}
+
+.titletext>span
+{
+  font-weight:800;
+}
+
+.greymid
+{
+  color:grey;
+  font-size:10px;
+  font-weight:300;
+}
+
+.circleContainer
+{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+  /*overflow:hidden;*/
+  display: flex;           
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;
+}
+
+.avatarCont
+{
+  width:100px;
+  height:100px;
+  position:absolute;
+  background:black;
+  border-radius:50%;
+  overflow:hidden;
+}
+
+.circle
+{
+  position:absolute;
+  background:white;
+  border-radius:50%;
+  
+}
+
+.sml
+{
+  width:110px;
+  height:110px;
+  opacity:0.4;
+}
+
+.mid
+{
+  width:120px;
+  height:120px;
+  opacity:0.3;
+}
+
+.big
+{
+   width:130px;
+  height:130px;
+  opacity:0.2;
+}
+
+.playbuttons
+{
+  width:100%;
+  height:72px;
+  background:white;
+  margin:auto;
+  text-align:center;
+  position:absolute;
+  bottom:50px;
+}
+
+.wavecontainer
+{
+  width:210px;
+  height:60px;
+  display: flex;           
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;
+  margin-top:15px;
+  margin-left:20px;
+  overflow:hidden;
+  position:relative;
+}
+
+.midline
+{
+  width:250px;
+  height:1px;
+  background:white;
+
+}
+
+.uplines
+{
+  width:500px;
+  height:auto;
+  position:absolute;
+ 
+  margin-top:-11px;
+}
+
+.downline
+{
+  width:500px;
+  height:auto;
+  /*transform: rotate(270deg);*/
+  position:absolute;
+  margin-top:13px
+}
+
+.redline
+{
+  width:4px;
+  height:30px;
+  background: rgb(242,48,101);
+  background: linear-gradient(0deg, rgba(242,48,101,1) 0%,   rgba(242,48,128,1) 100%);
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  display:inline-block;
+  transform-origin: center bottom;
+}
+
+.blackline
+{
+  width:4px;
+  height:30px;
+  background: rgb(75,75,75);
+  background: linear-gradient(0deg, rgba(75,75,75,1) 0%, rgba(128,128,128,1) 100%);
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  display:inline-block;
+  transform-origin: center bottom;
+  
+}
+
+
+.bottonline
+{
+  width:10px;
+  height:10px;
+  position:absolute;
+  background:white;
+  z-index:16;
+  border:2px solid grey;
+  border-radius: 50%;
+  display: flex;           
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;
+}
+
+.mindot
+{
+  width:4px;
+  height:4px;
+  background:#1e1e1e;
+  border-radius:50%;
+}
+  .video {
+        margin-left: 85px;
+        margin-top: 58px;
+        width: 335px;
+    height: 550px;
+        position: absolute;
+    }
+
+    .support-company-area{
+     background-color: #F8F8F8;
+     padding-top: 150px;
+    }
+
+
+
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0);
+     }
+      100% {
+        transform: translateX(calc(-250px * 7));
+     }
+   }
+    .slider {
+      background: white;
+      box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+      height: 100px;
+      margin: auto;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+   }
+    .slider::before, .slider::after {
+      background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+      content: "";
+      height: 100px;
+      position: absolute;
+      width: 200px;
+      z-index: 2;
+   }
+    .slider::after {
+      right: 0;
+      top: 0;
+      transform: rotateZ(180deg);
+   }
+    .slider::before {
+      left: 0;
+      top: 0;
+   }
+    .slider .slide-track {
+      animation: scroll 40s linear infinite;
+      display: flex;
+      width: calc(250px * 14);
+   }
+    .slider .slide {
+      height: 100px;
+      width: 250px;
+   }
+    
+
+
+   .home-blog-area{
+    background-color: #F8F8F8;
+   }
+   
+   .slider-area{
+     background-color: #5C8FEC;
+     ;
+   }
+
+   .hero__caption h1{
+  color:#FF7A8B;
+
+   }
+   .testimonial-area{
+background-color: #76DFBF;
+margin-top: 150px;
+
+   }
+   .footer-area{
+     background-color: #5C8FEC;
+     
+     ;
+   }
+   ..col-xl-3{
+     height: 100px;
+   }
+   .home-blog-area{
+height: 800px;
+   }
+
+
+:root {
+	/* Base font size */
+	font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background-color: #fafafa;
+}
+
+.container {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+}
+
+.heading {
+	font-family: "Montserrat", Arial, sans-serif;
+	font-size: 4rem;
+	font-weight: 500;
+	line-height: 1.5;
+	text-align: center;
+	padding: 3.5rem 0;
+	color: #1a1a1a;
+}
+
+.heading span {
+	display: block;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+/*
+
+The following rule will only run if your browser supports CSS grid.
+
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+
+*/
+
+@supports (display: grid) {
+	.gallery {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+		grid-gap: 2rem;
+	}
+
+	.gallery,
+	.gallery-item {
+		margin: 0;
+	}
+}
