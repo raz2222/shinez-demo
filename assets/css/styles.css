@@ -13,13 +13,23 @@ video {
   position: absolute;
   z-index: -1;
   width: 229px;
+  left: 0px;
+  top: 0px;
+  transform: rotateY(-13deg);
+  border-radius: 6%;
+  
+}
+video.mainvid {
+  border: none;
+  position: absolute;
+  z-index: -1;
+  width: 229px;
   left: 6px;
   top: 22px;
   transform: rotateY(-13deg);
   border-radius: 6%;
   
 }
-
 .iphone img {
   width: 100%;
 
@@ -58,6 +68,7 @@ video {
   
 }
 
+
 .phonemask
 {
   width:500px;
@@ -69,6 +80,7 @@ video {
   background-size:cover;
   background-repeat:no-repeat;
   z-index:14;
+  
 }
 .phone-mask
 {
@@ -86,20 +98,104 @@ video {
   border: none;
   position: absolute;
   z-index: -1;
-  width: 25%;
+  width:32%;
   left: 64px;
   top: 25px;
   transform: rotateY(-13deg);
   border-radius: 8%;
 }
+
 .phonecontainer1
+{
+  width:400px;
+  height:709px;
+  position: absolute;
+  z-index:14;
+  
+}
+
+.phonecontainer1:hover
+{
+  width:400px;
+  height:709px;
+  position: absolute;;
+  z-index:14;
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transition: all .2s ease-in-out ;
+}
+@media only screen and (max-width: 600px) {
+#iphonem{
+
+}
+    .phonem
+{
+  width:50%;
+  height:50%;
+  position:absolute;
+  top:0px;
+  left:0px;
+  background-image: url(https://uploads-ssl.webflow.com/5eb55653d4d4d9014b76407d/5ece6630eb97a046d32b3b07_pr.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  z-index:14;
+}
+.phonemask
+{
+  width:60%;
+  height:60%;
+  position:absolute;
+  top:0px;
+  left:0px;
+  background-image: url(https://uploads-ssl.webflow.com/5eb55653d4d4d9014b76407d/5ece6630eb97a046d32b3b07_pr.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  z-index:14;
+}
+.video1 {
+  border: none;
+  position: absolute;
+  z-index: -1;
+  width:32%;
+  left: 64px;
+  top: 25px;
+  transform: rotateY(-13deg);
+  border-radius: 8%;
+}
+.video {
+  border: none;
+  position: absolute;
+  z-index: -1;
+  width:12%;
+  left: 64px;
+  top: 25px;
+  transform: rotateY(-13deg);
+  border-radius: 8%;
+ 
+    margin-left: none;
+    margin-top: none;
+    width: 335px;
+height: 550px;
+    position: absolute;
+
+}
+.phonecontainer1
+{
+  width:200px;
+  height:309px;
+  position: relative;
+  z-index:14;
+
+  
+    
+}
+.phonecontainer
 {
   width:500px;
   height:709px;
   position:relative;
   z-index:14;
   
-  
+}
 }
 .scene-1
 {
@@ -119,9 +215,9 @@ video {
   background-image: url(https://uploads-ssl.webflow.com/5eb55653d4d4d9014b76407d/5ece6870b7c2667f7b4d3e0b_pl.png);
   background-size:cover;
   background-repeat:no-repeat;
-  display: flex;           
-  flex-direction: column;  
-  justify-content: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -146,7 +242,7 @@ video {
 
 .titletext{
   font-size:12px;
-  padding-top:15px;
+  padding-top:8px;
   padding-left:18px
 }
 
@@ -168,9 +264,9 @@ video {
   height:150px;
   border-radius:50%;
   /*overflow:hidden;*/
-  display: flex;           
-  flex-direction: column;  
-  justify-content: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -189,7 +285,7 @@ video {
   position:absolute;
   background:white;
   border-radius:50%;
-  
+
 }
 
 .sml
@@ -228,9 +324,9 @@ video {
 {
   width:210px;
   height:60px;
-  display: flex;           
-  flex-direction: column;  
-  justify-content: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin-top:15px;
   margin-left:20px;
@@ -251,7 +347,7 @@ video {
   width:500px;
   height:auto;
   position:absolute;
- 
+
   margin-top:-11px;
 }
 
@@ -286,7 +382,7 @@ video {
   border-top-right-radius:10px;
   display:inline-block;
   transform-origin: center bottom;
-  
+
 }
 
 
@@ -299,9 +395,9 @@ video {
   z-index:16;
   border:2px solid grey;
   border-radius: 50%;
-  display: flex;           
-  flex-direction: column;  
-  justify-content: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
@@ -371,30 +467,31 @@ video {
       height: 100px;
       width: 250px;
    }
-    
+
 
 
    .home-blog-area{
     background-color: #F8F8F8;
    }
-   
+
    .slider-area{
-     background-color: #5C8FEC;
+     background-color: #FFFFFF;
      ;
    }
 
    .hero__caption h1{
-  color:#FF7A8B;
+  color:#672296;
 
    }
+
    .testimonial-area{
-background-color: #76DFBF;
+background-color: #2D3E50;
 margin-top: 150px;
 
    }
    .footer-area{
-     background-color: #5C8FEC;
-     
+     background-color: #1BBC9B;
+
      ;
    }
    ..col-xl-3{
@@ -418,23 +515,25 @@ height: 800px;
 
 body {
 	min-height: 100vh;
-	background-color: #fafafa;
+	background-color: #C3F8E3;
 }
 
 .container {
 	max-width: 100rem;
 	margin: 0 auto;
 	padding: 0 2rem 2rem;
+
+
 }
 
 .heading {
-	font-family: "Montserrat", Arial, sans-serif;
+	font-family: "Poppins", Arial, sans-serif;
 	font-size: 4rem;
-	font-weight: 500;
+	font-weight: 700;
 	line-height: 1.5;
 	text-align: center;
 	padding: 3.5rem 0;
-	color: #1a1a1a;
+	color: #C3F8E3;
 }
 
 .heading span {
@@ -473,7 +572,7 @@ body {
 
 The following rule will only run if your browser supports CSS grid.
 
-Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling.
 
 */
 
@@ -488,4 +587,77 @@ Remove or comment-out the code block below to see how the browser will fall-back
 	.gallery-item {
 		margin: 0;
 	}
+}
+
+.decor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  z-index: -1;
+}
+.index #secretsauce .decor .aronia-rectangle-right {
+  position: absolute;
+  width: 1000px;
+  height: 120px;
+  overflow: hidden;
+  top: 450px;
+  left: 95%;
+  background-image: ;
+}
+.index #secretsauce .decor .mentha-st-rectangle-right {
+  position: absolute;
+  width: 1000px;
+  height: 80px;
+  overflow: hidden;
+  top: 410px;
+  left: 97%;
+  z-index: 1;
+}
+.index #secretsauce .decor .mentha-rectangle-left {
+  position: absolute;
+  width: 1000px;
+  height: 100px;
+  overflow: hidden;
+  top: -80px;
+  right: 78%;
+}
+.index #secretsauce .decor .white-st-rectangle-left {
+  position: absolute;
+  width: 1000px;
+  height: 120px;
+  overflow: hidden;
+  top: -35px;
+  right: 85%;
+}
+.index #secretsauce .decor .aronia-st-rectangle-right {
+  position: absolute;
+  width: 1000px;
+  height: 80px;
+  overflow: hidden;
+  top: 85s0px;
+  left: 92%;
+  z-index: 1;
+}
+.index #secretsauce .decor .mentha-rectangle-left:after {
+  content: "";
+  background: #77e0c1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.index #secretsauce .decor .white-st-rectangle-left:after {
+  content: "";
+  background: repeating-radial-gradient(center center, #fff, #fff 2px, transparent 2px, transparent 100%);
+  background: -webkit-repeating-radial-gradient(center center, #fff, #fff 2px, transparent 2px, transparent 100%);
+  background: -moz-repeating-radial-gradient(center center, #fff, #fff 2px, transparent 2px, transparent 100%);
+  background-size: 10px 10px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
 }
