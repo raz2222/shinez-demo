@@ -126,9 +126,19 @@ video.mainvid {
   transition: all .2s ease-in-out ;
 }
 @media only screen and (max-width: 600px) {
-#iphonem{
+  
+  .post-btn {
+    border-radius: 50px;
+    padding: 40px 50px; 
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 }
+  div.container-fluid { 
+    padding-left: 20px;
+    overflow-x: hidden;
+
+  }
     .phonem
 {
   width:50%;
@@ -173,12 +183,13 @@ video.mainvid {
   transform: rotateY(-13deg);
   border-radius: 8%;
  
-    margin-left: none;
+ margin-left: inherit;
     margin-top: none;
-    width: 335px;
-height: 550px;
-    position: absolute;
 
+}
+.row.braking{
+  display: -ms-flexbox;
+flex-wrap: wrap;
 }
 .phonecontainer1
 {
@@ -196,8 +207,24 @@ height: 550px;
   height:709px;
   position:relative;
   z-index:14;
-  
+  margin-left: -180px;
 }
+.slider-area{
+  padding-top: 20px;
+}
+.iphone{
+  padding-left: 30px;
+}
+.mainvid{
+  margin-left: 20px;
+  padding-top: 0px;
+height: 440px;
+}
+#devices{
+  display: flex;           
+  flex-direction: row;  
+}
+
 }
 .scene-1
 {
@@ -662,4 +689,16 @@ Remove or comment-out the code block below to see how the browser will fall-back
   top: 0;
   width: 100%;
   height: 100%;
+}
+
+.container-fluid{
+
+    padding-left: 140px;
+
+}
+
+.container-fluid#brand{
+
+  padding-left: 0px;
+
 }
